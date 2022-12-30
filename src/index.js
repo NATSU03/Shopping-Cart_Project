@@ -9,7 +9,7 @@ app.use(express.json())
 
 app.use(multer().any())
 
-mongoose.connect("mongodb+srv://Shashi_Shekhar_Singh:Shashi0708@myproject.mb3u3za.mongodb.net/Group24-DB?authSource=admin&replicaSet=atlas-lhj98j-shard-0&readPreference=primary&ssl=true",
+mongoose.connect("mongodb+srv://vishwasw75:9595335675@firstcluster.jde07cq.mongodb.net/Shopping_Cart",
 {useNewUrlParser:true})
 
 .then(()=> console.log("MongoDb is connected"))
